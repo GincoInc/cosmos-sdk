@@ -3,30 +3,29 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // GenerateCoinKey generates a new key mnemonic along with its addrress.
-func GenerateCoinKey(algo keyring.SignatureAlgo, cdc codec.Codec) (sdk.AccAddress, string, error) {
-	// generate a private key, with mnemonic
-	info, secret, err := keyring.NewInMemory(cdc).NewMnemonic(
-		"name",
-		keyring.English,
-		sdk.GetConfig().GetFullBIP44Path(),
-		keyring.DefaultBIP39Passphrase,
-		algo,
-	)
-	if err != nil {
-		return sdk.AccAddress{}, "", err
-	}
-	addr, err := info.GetAddress()
-	if err != nil {
-		return sdk.AccAddress{}, "", err
-	}
-	return addr, secret, nil
-}
+// func GenerateCoinKey(algo keyring.SignatureAlgo, cdc codec.Codec) (sdk.AccAddress, string, error) {
+// 	// generate a private key, with mnemonic
+// 	info, secret, err := keyring.NewInMemory(cdc).NewMnemonic(
+// 		"name",
+// 		keyring.English,
+// 		sdk.GetConfig().GetFullBIP44Path(),
+// 		keyring.DefaultBIP39Passphrase,
+// 		algo,
+// 	)
+// 	if err != nil {
+// 		return sdk.AccAddress{}, "", err
+// 	}
+// 	addr, err := info.GetAddress()
+// 	if err != nil {
+// 		return sdk.AccAddress{}, "", err
+// 	}
+// 	return addr, secret, nil
+// }
 
 // GenerateSaveCoinKey generates a new key mnemonic with its addrress.
 // If mnemonic is provided then it's used for key generation.

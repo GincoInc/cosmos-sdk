@@ -411,12 +411,3 @@ func GetFromFields(clientCtx Context, kr keyring.Keyring, from string) (sdk.AccA
 
 	return addr, k.Name, k.GetType(), nil
 }
-
-// NewKeyringFromBackend gets a Keyring object from a backend
-func NewKeyringFromBackend(ctx Context, backend string) (keyring.Keyring, error) {
-	if ctx.Simulate {
-		backend = keyring.BackendMemory
-	}
-
-	return keyring.New(sdk.KeyringServiceName(), backend, ctx.KeyringDir, ctx.Input, ctx.Codec, ctx.KeyringOptions...)
-}

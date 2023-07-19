@@ -38,7 +38,6 @@ func CommandsWithCustomMigrationMap(txConfig client.TxConfig, moduleBasics modul
 		MigrateGenesisCmd(migrationMap),
 		CollectGenTxsCmd(banktypes.GenesisBalancesIterator{}, defaultNodeHome, gentxModule.GenTxValidator),
 		ValidateGenesisCmd(moduleBasics),
-		AddGenesisAccountCmd(defaultNodeHome),
 	)
 
 	return cmd
