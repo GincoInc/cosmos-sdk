@@ -7,11 +7,11 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	v3 "github.com/cosmos/cosmos-sdk/x/staking/migrations/v3"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	paramtypes "github.com/GincoInc/cosmos-sdk/x/params/types"
+	v3 "github.com/GincoInc/cosmos-sdk/x/staking/migrations/v3"
+	"github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 func TestStoreMigration(t *testing.T) {

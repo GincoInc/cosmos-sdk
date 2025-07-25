@@ -6,12 +6,12 @@ import (
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v2 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v2"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/address"
+	v2 "github.com/GincoInc/cosmos-sdk/x/bank/migrations/v2"
+	"github.com/GincoInc/cosmos-sdk/x/bank/types"
 )
 
 // MigrateStore performs in-place store migrations from v0.43 to v0.45. The

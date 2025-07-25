@@ -9,16 +9,16 @@ import (
 	sdkmath "cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/crisis"
-	"github.com/cosmos/cosmos-sdk/x/crisis/keeper"
-	crisistestutil "github.com/cosmos/cosmos-sdk/x/crisis/testutil"
-	"github.com/cosmos/cosmos-sdk/x/crisis/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	addresscodec "github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/crisis"
+	"github.com/GincoInc/cosmos-sdk/x/crisis/keeper"
+	crisistestutil "github.com/GincoInc/cosmos-sdk/x/crisis/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/crisis/types"
 )
 
 type GenesisTestSuite struct {

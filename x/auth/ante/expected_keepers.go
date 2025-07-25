@@ -5,8 +5,8 @@ import (
 
 	"cosmossdk.io/core/address"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/auth/types"
 )
 
 // AccountKeeper defines the contract needed for AccountKeeper related APIs.

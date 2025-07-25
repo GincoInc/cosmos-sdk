@@ -13,14 +13,14 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/client/tx"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/version"
+	"github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // default values

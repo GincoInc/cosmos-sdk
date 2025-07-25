@@ -3,17 +3,17 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	disttypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	simtypes "github.com/GincoInc/cosmos-sdk/types/simulation"
+	"github.com/GincoInc/cosmos-sdk/x/bank/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/bank/types"
+	disttypes "github.com/GincoInc/cosmos-sdk/x/distribution/types"
+	"github.com/GincoInc/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

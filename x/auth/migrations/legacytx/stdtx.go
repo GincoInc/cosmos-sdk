@@ -4,11 +4,11 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/codec/legacy"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/tx/signing"
 )
 
 // Interface implementation checks

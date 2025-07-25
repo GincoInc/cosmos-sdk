@@ -10,11 +10,11 @@ import (
 
 	address "cosmossdk.io/core/address"
 	math "cosmossdk.io/math"
-	types "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
-	keeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	types0 "github.com/cosmos/cosmos-sdk/x/bank/types"
-	types1 "github.com/cosmos/cosmos-sdk/x/staking/types"
+	types "github.com/GincoInc/cosmos-sdk/types"
+	query "github.com/GincoInc/cosmos-sdk/types/query"
+	keeper "github.com/GincoInc/cosmos-sdk/x/bank/keeper"
+	types0 "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	types1 "github.com/GincoInc/cosmos-sdk/x/staking/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

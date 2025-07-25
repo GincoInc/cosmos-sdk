@@ -24,13 +24,13 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	"cosmossdk.io/x/tx/signing"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/std"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	addresscodec "github.com/GincoInc/cosmos-sdk/codec/address"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/std"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	"github.com/GincoInc/cosmos-sdk/types/msgservice"
 )
 
 type appModule struct {

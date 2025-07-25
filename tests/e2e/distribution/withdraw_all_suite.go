@@ -9,16 +9,16 @@ import (
 	"cosmossdk.io/math"
 	"cosmossdk.io/simapp"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/cli"
-	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/crypto/hd"
+	"github.com/GincoInc/cosmos-sdk/crypto/keyring"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
+	"github.com/GincoInc/cosmos-sdk/testutil/network"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/distribution/client/cli"
+	stakingcli "github.com/GincoInc/cosmos-sdk/x/staking/client/cli"
 )
 
 type WithdrawAllTestSuite struct {

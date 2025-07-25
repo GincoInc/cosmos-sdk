@@ -4,17 +4,17 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	simtypes "github.com/GincoInc/cosmos-sdk/types/simulation"
+	"github.com/GincoInc/cosmos-sdk/x/simulation"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/types"
 )
 
 // Simulation operation weights constants

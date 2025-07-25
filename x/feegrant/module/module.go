@@ -19,12 +19,12 @@ import (
 	"cosmossdk.io/x/feegrant/keeper"
 	"cosmossdk.io/x/feegrant/simulation"
 
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	sdkclient "github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	cdctypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	simtypes "github.com/GincoInc/cosmos-sdk/types/simulation"
 )
 
 var (

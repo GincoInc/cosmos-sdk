@@ -12,11 +12,11 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/x/auth/types"
 )
 
 // AccountKeeperI is the interface contract that x/auth's keeper implements.

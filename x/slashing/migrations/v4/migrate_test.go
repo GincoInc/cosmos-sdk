@@ -9,12 +9,12 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/slashing"
-	v4 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v4"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/slashing"
+	v4 "github.com/GincoInc/cosmos-sdk/x/slashing/migrations/v4"
+	slashingtypes "github.com/GincoInc/cosmos-sdk/x/slashing/types"
 )
 
 var consAddr = sdk.ConsAddress(sdk.AccAddress([]byte("addr1_______________")))

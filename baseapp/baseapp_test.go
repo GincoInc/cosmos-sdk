@@ -23,16 +23,16 @@ import (
 	snapshottypes "cosmossdk.io/store/snapshots/types"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	baseapptestutil "github.com/cosmos/cosmos-sdk/baseapp/testutil"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectestutil "github.com/cosmos/cosmos-sdk/codec/testutil"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	baseapptestutil "github.com/GincoInc/cosmos-sdk/baseapp/testutil"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectestutil "github.com/GincoInc/cosmos-sdk/codec/testutil"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	authtx "github.com/GincoInc/cosmos-sdk/x/auth/tx"
 )
 
 var (
@@ -682,8 +682,8 @@ func TestBaseAppPostHandler(t *testing.T) {
 
 // Test and ensure that invalid block heights always cause errors.
 // See issues:
-// - https://github.com/cosmos/cosmos-sdk/issues/11220
-// - https://github.com/cosmos/cosmos-sdk/issues/7662
+// - https://github.com/GincoInc/cosmos-sdk/issues/11220
+// - https://github.com/GincoInc/cosmos-sdk/issues/7662
 func TestABCI_CreateQueryContext(t *testing.T) {
 	t.Parallel()
 

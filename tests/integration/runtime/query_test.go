@@ -15,17 +15,17 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/configurator"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	_ "github.com/cosmos/cosmos-sdk/x/auth"
-	_ "github.com/cosmos/cosmos-sdk/x/auth/tx/config"
-	_ "github.com/cosmos/cosmos-sdk/x/bank"
-	_ "github.com/cosmos/cosmos-sdk/x/consensus"
-	_ "github.com/cosmos/cosmos-sdk/x/params"
-	_ "github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/testutil/configurator"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	_ "github.com/GincoInc/cosmos-sdk/x/auth"
+	_ "github.com/GincoInc/cosmos-sdk/x/auth/tx/config"
+	_ "github.com/GincoInc/cosmos-sdk/x/bank"
+	_ "github.com/GincoInc/cosmos-sdk/x/consensus"
+	_ "github.com/GincoInc/cosmos-sdk/x/params"
+	_ "github.com/GincoInc/cosmos-sdk/x/staking"
 )
 
 type fixture struct {

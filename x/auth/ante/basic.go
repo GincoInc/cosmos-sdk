@@ -4,14 +4,14 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/GincoInc/cosmos-sdk/codec/legacy"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/x/auth/migrations/legacytx"
+	authsigning "github.com/GincoInc/cosmos-sdk/x/auth/signing"
 )
 
 // ValidateBasicDecorator will call tx.ValidateBasic and return any non-nil error.

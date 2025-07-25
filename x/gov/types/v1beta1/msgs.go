@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 // Governance message types and routes

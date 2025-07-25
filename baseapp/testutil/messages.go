@@ -3,11 +3,11 @@ package testutil
 import (
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	"github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/crypto/codec"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/types/msgservice"
 )
 
 func RegisterInterfaces(registry types.InterfaceRegistry) {

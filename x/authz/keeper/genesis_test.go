@@ -12,17 +12,17 @@ import (
 	sdkmath "cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
-	authztestutil "github.com/cosmos/cosmos-sdk/x/authz/testutil"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	"github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/authz/keeper"
+	authzmodule "github.com/GincoInc/cosmos-sdk/x/authz/module"
+	authztestutil "github.com/GincoInc/cosmos-sdk/x/authz/testutil"
+	bank "github.com/GincoInc/cosmos-sdk/x/bank/types"
 )
 
 var (

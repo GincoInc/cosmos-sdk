@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdktx "github.com/GincoInc/cosmos-sdk/types/tx"
 )
 
 const (

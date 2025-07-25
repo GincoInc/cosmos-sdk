@@ -13,7 +13,7 @@ import (
 	bankv1beta1 "cosmossdk.io/api/cosmos/bank/v1beta1"
 	"cosmossdk.io/client/v2/internal/testpb"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client"
 )
 
 var buildModuleMsgCommand = func(moduleName string, f *fixture) (*cobra.Command, error) {

@@ -16,8 +16,8 @@ import (
 
 	"cosmossdk.io/core/comet"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/mempool"
 )
 
 type (

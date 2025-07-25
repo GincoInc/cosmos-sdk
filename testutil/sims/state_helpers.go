@@ -14,17 +14,17 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
-	simcli "github.com/cosmos/cosmos-sdk/x/simulation/client/cli"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	simtypes "github.com/GincoInc/cosmos-sdk/types/simulation"
+	authtypes "github.com/GincoInc/cosmos-sdk/x/auth/types"
+	banktypes "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	genutiltypes "github.com/GincoInc/cosmos-sdk/x/genutil/types"
+	simcli "github.com/GincoInc/cosmos-sdk/x/simulation/client/cli"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // Simulation parameter constants

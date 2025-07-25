@@ -14,17 +14,17 @@ import (
 	"cosmossdk.io/depinject"
 	store "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	sdkclient "github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	cdctypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	simtypes "github.com/GincoInc/cosmos-sdk/types/simulation"
+	"github.com/GincoInc/cosmos-sdk/x/group"
+	"github.com/GincoInc/cosmos-sdk/x/group/client/cli"
+	"github.com/GincoInc/cosmos-sdk/x/group/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/group/simulation"
 )
 
 // ConsensusVersion defines the current x/group module consensus version.

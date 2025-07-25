@@ -7,9 +7,9 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/group"
 )
 
 // InitGenesis initializes the group module's genesis state.

@@ -3,7 +3,7 @@ package mempool
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 var _ ExtMempool = (*NoOpMempool)(nil)

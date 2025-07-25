@@ -11,14 +11,14 @@ import (
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	"github.com/cosmos/cosmos-sdk/server"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
-	authtxconfig "github.com/cosmos/cosmos-sdk/x/auth/tx/config"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/config"
+	"github.com/GincoInc/cosmos-sdk/server"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	"github.com/GincoInc/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/x/auth/tx"
+	authtxconfig "github.com/GincoInc/cosmos-sdk/x/auth/tx/config"
+	"github.com/GincoInc/cosmos-sdk/x/auth/types"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the

@@ -11,16 +11,16 @@ import (
 	"cosmossdk.io/simapp"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/grpc/cmtservice"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/types"
-	qtypes "github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/version"
-	_ "github.com/cosmos/cosmos-sdk/x/distribution"
-	_ "github.com/cosmos/cosmos-sdk/x/gov"
+	"github.com/GincoInc/cosmos-sdk/client/grpc/cmtservice"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	"github.com/GincoInc/cosmos-sdk/testutil/network"
+	"github.com/GincoInc/cosmos-sdk/types"
+	qtypes "github.com/GincoInc/cosmos-sdk/types/query"
+	"github.com/GincoInc/cosmos-sdk/version"
+	_ "github.com/GincoInc/cosmos-sdk/x/distribution"
+	_ "github.com/GincoInc/cosmos-sdk/x/gov"
 )
 
 type E2ETestSuite struct {

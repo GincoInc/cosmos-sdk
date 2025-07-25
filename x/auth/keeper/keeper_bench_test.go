@@ -8,10 +8,10 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/testutil"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/auth/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/auth/testutil"
 )
 
 func BenchmarkAccountMapperGetAccountFound(b *testing.B) {

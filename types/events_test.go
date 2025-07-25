@@ -10,9 +10,9 @@ import (
 
 	"cosmossdk.io/math"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	testdata "github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	testdata "github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 type eventsTestSuite struct {

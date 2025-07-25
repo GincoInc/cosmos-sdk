@@ -8,12 +8,12 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/x/group/errors"
+	"github.com/GincoInc/cosmos-sdk/x/group/internal/math"
+	"github.com/GincoInc/cosmos-sdk/x/group/internal/orm"
 )
 
 // DecisionPolicyResult is the result of whether a proposal passes or not a

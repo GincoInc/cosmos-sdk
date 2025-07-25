@@ -9,11 +9,11 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	servertypes "github.com/GincoInc/cosmos-sdk/server/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	slashingtypes "github.com/GincoInc/cosmos-sdk/x/slashing/types"
+	"github.com/GincoInc/cosmos-sdk/x/staking"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // ExportAppStateAndValidators exports the state of the application for a genesis

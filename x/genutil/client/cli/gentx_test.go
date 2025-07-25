@@ -13,19 +13,19 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/crypto/keyring"
+	svrcmd "github.com/GincoInc/cosmos-sdk/server/cmd"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	testutilmod "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	banktypes "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	"github.com/GincoInc/cosmos-sdk/x/genutil"
+	"github.com/GincoInc/cosmos-sdk/x/genutil/client/cli"
+	stakingcli "github.com/GincoInc/cosmos-sdk/x/staking/client/cli"
 )
 
 type CLITestSuite struct {

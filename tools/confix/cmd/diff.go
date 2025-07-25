@@ -8,7 +8,7 @@ import (
 
 	"cosmossdk.io/tools/confix"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client"
 )
 
 func DiffCommand() *cobra.Command {

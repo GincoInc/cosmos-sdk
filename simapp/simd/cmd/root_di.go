@@ -12,15 +12,15 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/simapp"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
-	authtxconfig "github.com/cosmos/cosmos-sdk/x/auth/tx/config"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/config"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/server"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	"github.com/GincoInc/cosmos-sdk/x/auth/tx"
+	authtxconfig "github.com/GincoInc/cosmos-sdk/x/auth/tx/config"
+	"github.com/GincoInc/cosmos-sdk/x/auth/types"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the main function.

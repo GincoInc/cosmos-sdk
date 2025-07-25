@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
 )
 
 var (

@@ -20,13 +20,13 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/testutil/cmdtest"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/server"
+	"github.com/GincoInc/cosmos-sdk/server/types"
+	"github.com/GincoInc/cosmos-sdk/testutil/cmdtest"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	genutilcli "github.com/GincoInc/cosmos-sdk/x/genutil/client/cli"
+	genutiltypes "github.com/GincoInc/cosmos-sdk/x/genutil/types"
 )
 
 // ExportSystem wraps a (*cmdtest).System

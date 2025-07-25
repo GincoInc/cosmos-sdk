@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/module"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	"github.com/GincoInc/cosmos-sdk/types/kv"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/group"
+	"github.com/GincoInc/cosmos-sdk/x/group/internal/orm"
+	"github.com/GincoInc/cosmos-sdk/x/group/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/group/module"
+	"github.com/GincoInc/cosmos-sdk/x/group/simulation"
 )
 
 func TestDecodeStore(t *testing.T) {

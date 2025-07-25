@@ -17,9 +17,9 @@ import (
 	"cosmossdk.io/x/evidence/testutil"
 	"cosmossdk.io/x/evidence/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 type GenesisTestSuite struct {

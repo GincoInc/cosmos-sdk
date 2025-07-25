@@ -12,17 +12,17 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/client/cli"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/crypto/keyring"
+	svrcmd "github.com/GincoInc/cosmos-sdk/server/cmd"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	testutilmod "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/auth/vesting"
+	"github.com/GincoInc/cosmos-sdk/x/auth/vesting/client/cli"
 )
 
 type CLITestSuite struct {

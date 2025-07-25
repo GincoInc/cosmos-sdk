@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/testutil"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/types"
 )
 
 func (s *KeeperTestSuite) TestExportAndInitGenesis() {

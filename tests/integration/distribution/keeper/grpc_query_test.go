@@ -8,11 +8,11 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtestutil "github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/query"
+	"github.com/GincoInc/cosmos-sdk/x/distribution/types"
+	stakingtestutil "github.com/GincoInc/cosmos-sdk/x/staking/testutil"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 func TestGRPCParams(t *testing.T) {

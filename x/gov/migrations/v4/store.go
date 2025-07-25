@@ -8,13 +8,13 @@ import (
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/exported"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/gov/exported"
+	v1 "github.com/GincoInc/cosmos-sdk/x/gov/migrations/v1"
+	"github.com/GincoInc/cosmos-sdk/x/gov/types"
+	govv1 "github.com/GincoInc/cosmos-sdk/x/gov/types/v1"
 )
 
 func migrateParams(ctx sdk.Context, store storetypes.KVStore, legacySubspace exported.ParamSubspace, cdc codec.BinaryCodec) error {

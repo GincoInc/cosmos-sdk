@@ -14,15 +14,15 @@ import (
 	txsigning "cosmossdk.io/x/tx/signing"
 	"cosmossdk.io/x/tx/signing/aminojson"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	cryptocodec "github.com/GincoInc/cosmos-sdk/crypto/codec"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/GincoInc/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/tx/signing"
 )
 
 var (

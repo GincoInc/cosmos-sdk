@@ -6,9 +6,9 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // initialize rewards for a new validator

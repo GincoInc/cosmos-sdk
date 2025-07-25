@@ -12,16 +12,16 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	distributionkeeper "github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	slashingkeeper "github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/testutil"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/secp256k1"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	bankkeeper "github.com/GincoInc/cosmos-sdk/x/bank/keeper"
+	banktestutil "github.com/GincoInc/cosmos-sdk/x/bank/testutil"
+	distributionkeeper "github.com/GincoInc/cosmos-sdk/x/distribution/keeper"
+	slashingkeeper "github.com/GincoInc/cosmos-sdk/x/slashing/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/testutil"
+	stakingkeeper "github.com/GincoInc/cosmos-sdk/x/staking/keeper"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 func TestSlashRedelegation(t *testing.T) {

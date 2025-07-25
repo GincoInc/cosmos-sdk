@@ -13,8 +13,8 @@ import (
 	"cosmossdk.io/client/v2/autocli/flag"
 	"cosmossdk.io/client/v2/internal/util"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
+	"github.com/GincoInc/cosmos-sdk/client"
+	clienttx "github.com/GincoInc/cosmos-sdk/client/tx"
 )
 
 // BuildMsgCommand builds the msg commands for all the provided modules. If a custom command is provided for a

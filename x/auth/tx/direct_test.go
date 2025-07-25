@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 	protov2 "google.golang.org/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	txtypes "github.com/GincoInc/cosmos-sdk/types/tx"
+	signingtypes "github.com/GincoInc/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/x/auth/signing"
 )
 
 func TestDirectModeHandler(t *testing.T) {

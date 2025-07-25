@@ -14,28 +14,28 @@ import (
 	"cosmossdk.io/core/address"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authtestutil "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	govtestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	addresscodec "github.com/GincoInc/cosmos-sdk/codec/address"
+	"github.com/GincoInc/cosmos-sdk/crypto/hd"
+	"github.com/GincoInc/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/GincoInc/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	"github.com/GincoInc/cosmos-sdk/testutil"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	testutilmod "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/types/tx"
+	"github.com/GincoInc/cosmos-sdk/x/auth"
+	authcli "github.com/GincoInc/cosmos-sdk/x/auth/client/cli"
+	authtestutil "github.com/GincoInc/cosmos-sdk/x/auth/client/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/bank"
+	banktypes "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	"github.com/GincoInc/cosmos-sdk/x/genutil/client/cli"
+	"github.com/GincoInc/cosmos-sdk/x/gov"
+	govtestutil "github.com/GincoInc/cosmos-sdk/x/gov/client/testutil"
+	govtypes "github.com/GincoInc/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 type CLITestSuite struct {
@@ -878,7 +878,7 @@ func (s *CLITestSuite) TestGetBroadcastCommandWithoutOfflineFlag() {
 
 // TestTxWithoutPublicKey makes sure sending a proto tx message without the
 // public key doesn't cause any error in the RPC layer (broadcast).
-// See https://github.com/cosmos/cosmos-sdk/issues/7585 for more details.
+// See https://github.com/GincoInc/cosmos-sdk/issues/7585 for more details.
 func (s *CLITestSuite) TestTxWithoutPublicKey() {
 	txCfg := s.clientCtx.TxConfig
 

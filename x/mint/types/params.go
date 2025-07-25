@@ -7,7 +7,7 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 // NewParams returns Params instance with the given values.

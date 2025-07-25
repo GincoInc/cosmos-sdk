@@ -6,8 +6,8 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	paramtypes "github.com/GincoInc/cosmos-sdk/x/params/types"
 )
 
 // Parameter store key

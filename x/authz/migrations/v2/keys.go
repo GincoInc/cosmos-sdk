@@ -3,10 +3,10 @@ package v2
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/GincoInc/cosmos-sdk/internal/conv"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/address"
+	"github.com/GincoInc/cosmos-sdk/types/kv"
 )
 
 // Keys for store prefixes

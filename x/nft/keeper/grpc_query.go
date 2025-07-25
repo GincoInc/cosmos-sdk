@@ -6,10 +6,10 @@ import (
 	"cosmossdk.io/store/prefix"
 	"cosmossdk.io/x/nft"
 
-	"github.com/cosmos/cosmos-sdk/runtime"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/types/query"
 )
 
 var _ nft.QueryServer = Keeper{}

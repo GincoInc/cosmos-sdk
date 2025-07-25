@@ -3,10 +3,10 @@ package v4
 import (
 	"cosmossdk.io/core/store"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/exported"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/bank/exported"
+	"github.com/GincoInc/cosmos-sdk/x/bank/types"
 )
 
 const ModuleName = "bank"

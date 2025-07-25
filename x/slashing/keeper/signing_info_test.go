@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/testutil"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/slashing/testutil"
+	slashingtypes "github.com/GincoInc/cosmos-sdk/x/slashing/types"
 )
 
 func (s *KeeperTestSuite) TestValidatorSigningInfo() {

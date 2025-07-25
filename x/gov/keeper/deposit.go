@@ -9,11 +9,11 @@ import (
 	"cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	disttypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
+	disttypes "github.com/GincoInc/cosmos-sdk/x/distribution/types"
+	"github.com/GincoInc/cosmos-sdk/x/gov/types"
+	v1 "github.com/GincoInc/cosmos-sdk/x/gov/types/v1"
 )
 
 // SetDeposit sets a Deposit to the gov store

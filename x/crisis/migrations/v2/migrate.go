@@ -3,10 +3,10 @@ package v2
 import (
 	storetypes "cosmossdk.io/core/store"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/crisis/exported"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/x/crisis/exported"
 )
 
 const (

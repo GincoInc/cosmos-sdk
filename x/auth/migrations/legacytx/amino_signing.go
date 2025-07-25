@@ -5,9 +5,9 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/crypto/types/multisig"
+	signingtypes "github.com/GincoInc/cosmos-sdk/types/tx/signing"
 )
 
 // SignatureDataToAminoSignature converts a SignatureData to amino-encoded signature bytes.

@@ -132,7 +132,7 @@ func (enc Encoder) getFieldEncoder(field protoreflect.FieldDescriptor) FieldEnco
 		// expected to already be encoded as their human readable string representation
 		// containing a radix, i.e. "1.2345".
 		// For example:
-		// https://github.com/cosmos/cosmos-sdk/blob/9076487d035e43d39fe54e8498da1ce31b9c845c/x/gov/proto/cosmos/gov/v1/gov.proto#L274
+		// https://github.com/GincoInc/cosmos-sdk/blob/9076487d035e43d39fe54e8498da1ce31b9c845c/x/gov/proto/cosmos/gov/v1/gov.proto#L274
 		if scalar == cosmosDecType {
 			customType := proto.GetExtension(opts, customTypeExtension)
 			if customType != "cosmossdk.io/math.LegacyDec" {

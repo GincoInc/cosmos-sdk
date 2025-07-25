@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/server"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
+	"github.com/GincoInc/cosmos-sdk/server"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
+	"github.com/GincoInc/cosmos-sdk/testutil/network"
 )
 
 func TestStatusCommand(t *testing.T) {

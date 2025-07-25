@@ -7,7 +7,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/GincoInc/cosmos-sdk/x/distribution/types"
 )
 
 func TestParams_ValidateBasic(t *testing.T) {

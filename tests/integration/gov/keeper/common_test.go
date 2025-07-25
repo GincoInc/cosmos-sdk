@@ -7,13 +7,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	authtypes "github.com/GincoInc/cosmos-sdk/x/auth/types"
+	"github.com/GincoInc/cosmos-sdk/x/gov/types"
+	v1 "github.com/GincoInc/cosmos-sdk/x/gov/types/v1"
+	"github.com/GincoInc/cosmos-sdk/x/gov/types/v1beta1"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 var TestProposal = getTestProposal()

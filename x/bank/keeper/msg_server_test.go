@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	authtypes "github.com/GincoInc/cosmos-sdk/x/auth/types"
+	banktypes "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	govtypes "github.com/GincoInc/cosmos-sdk/x/gov/types"
 )
 
 var govAcc = authtypes.NewEmptyModuleAccount(govtypes.ModuleName, authtypes.Minter)

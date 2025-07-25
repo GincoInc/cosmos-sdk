@@ -9,11 +9,11 @@ import (
 	"cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
 
-	"github.com/cosmos/cosmos-sdk/runtime"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/query"
+	"github.com/GincoInc/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 var _ types.QueryServer = Querier{}

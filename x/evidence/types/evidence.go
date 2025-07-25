@@ -10,7 +10,7 @@ import (
 	"cosmossdk.io/core/comet"
 	"cosmossdk.io/x/evidence/exported"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 // Evidence type constants

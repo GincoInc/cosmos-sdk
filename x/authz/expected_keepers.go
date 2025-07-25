@@ -5,7 +5,7 @@ import (
 
 	"cosmossdk.io/core/address"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 // AccountKeeper defines the expected account keeper (noalias)

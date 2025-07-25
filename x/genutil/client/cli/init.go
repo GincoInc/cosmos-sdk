@@ -15,15 +15,15 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math/unsafe"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/client/input"
+	"github.com/GincoInc/cosmos-sdk/server"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/module"
+	"github.com/GincoInc/cosmos-sdk/version"
+	"github.com/GincoInc/cosmos-sdk/x/genutil"
+	"github.com/GincoInc/cosmos-sdk/x/genutil/types"
 )
 
 const (

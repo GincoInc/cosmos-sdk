@@ -18,16 +18,16 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/grpc/cmtservice"
-	rpc "github.com/cosmos/cosmos-sdk/client/rpc"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/version"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/client/grpc/cmtservice"
+	rpc "github.com/GincoInc/cosmos-sdk/client/rpc"
+	cryptocodec "github.com/GincoInc/cosmos-sdk/crypto/codec"
+	"github.com/GincoInc/cosmos-sdk/server/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/query"
+	"github.com/GincoInc/cosmos-sdk/version"
+	auth "github.com/GincoInc/cosmos-sdk/x/auth/client/cli"
 )
 
 // StatusCommand returns the command to return the status of the network.

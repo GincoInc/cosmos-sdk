@@ -11,10 +11,10 @@ import (
 	"cosmossdk.io/x/nft/module"
 	"cosmossdk.io/x/nft/simulation"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/kv"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
 )
 
 var (

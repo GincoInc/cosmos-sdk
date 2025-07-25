@@ -1,9 +1,9 @@
 package types
 
 import (
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	types "github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/msgservice"
 )
 
 // RegisterInterfaces registers the interfaces types with the interface registry.

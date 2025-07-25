@@ -8,9 +8,9 @@ import (
 	"cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	banktestutil "github.com/GincoInc/cosmos-sdk/x/bank/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 func BenchmarkGetValidator(b *testing.B) {

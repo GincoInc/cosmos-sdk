@@ -10,9 +10,9 @@ import (
 
 	"cosmossdk.io/tools/confix/cmd"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/config"
+	clitestutil "github.com/GincoInc/cosmos-sdk/testutil/cli"
 )
 
 // initClientContext initiates client Context for tests

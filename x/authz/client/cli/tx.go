@@ -10,15 +10,15 @@ import (
 
 	"cosmossdk.io/core/address"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
-	staking "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/client/tx"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/version"
+	authclient "github.com/GincoInc/cosmos-sdk/x/auth/client"
+	"github.com/GincoInc/cosmos-sdk/x/authz"
+	bank "github.com/GincoInc/cosmos-sdk/x/bank/types"
+	staking "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // Flag names and values

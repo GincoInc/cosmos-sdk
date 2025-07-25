@@ -10,8 +10,8 @@ import (
 	"cosmossdk.io/x/upgrade/keeper"
 	"cosmossdk.io/x/upgrade/types"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/telemetry"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
 )
 
 // PreBlocker will check if there is a scheduled plan and if it is ready to be executed.

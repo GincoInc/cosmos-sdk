@@ -11,14 +11,14 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/GincoInc/cosmos-sdk/client/tx"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	codectypes "github.com/GincoInc/cosmos-sdk/codec/types"
+	"github.com/GincoInc/cosmos-sdk/runtime"
+	"github.com/GincoInc/cosmos-sdk/testutil/testdata"
+	"github.com/GincoInc/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/GincoInc/cosmos-sdk/x/auth/signing"
+	authtx "github.com/GincoInc/cosmos-sdk/x/auth/tx"
 )
 
 func TestRegisterMsgService(t *testing.T) {

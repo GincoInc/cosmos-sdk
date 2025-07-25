@@ -9,12 +9,12 @@ import (
 
 	"cosmossdk.io/math"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	banktestutil "github.com/GincoInc/cosmos-sdk/x/bank/testutil"
+	stakingkeeper "github.com/GincoInc/cosmos-sdk/x/staking/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/staking/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 // SetupUnbondingTests creates two validators and setup mocked staking hooks for testing unbonding

@@ -11,16 +11,16 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankKeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	stakingKeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/GincoInc/cosmos-sdk/crypto/keys/secp256k1"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	moduletestutil "github.com/GincoInc/cosmos-sdk/types/module/testutil"
+	authtypes "github.com/GincoInc/cosmos-sdk/x/auth/types"
+	bankKeeper "github.com/GincoInc/cosmos-sdk/x/bank/keeper"
+	stakingKeeper "github.com/GincoInc/cosmos-sdk/x/staking/keeper"
+	"github.com/GincoInc/cosmos-sdk/x/staking/testutil"
+	"github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 var (

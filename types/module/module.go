@@ -44,11 +44,11 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/codec/types"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	sdkerrors "github.com/GincoInc/cosmos-sdk/types/errors"
 )
 
 // AppModuleBasic is the standard form for basic non-dependant elements of an application module.
@@ -876,7 +876,7 @@ func (m *Manager) ModuleNames() []string {
 
 // DefaultMigrationsOrder returns a default migrations order: ascending alphabetical by module name,
 // except x/auth which will run last, see:
-// https://github.com/cosmos/cosmos-sdk/issues/10591
+// https://github.com/GincoInc/cosmos-sdk/issues/10591
 func DefaultMigrationsOrder(modules []string) []string {
 	const authName = "auth"
 	out := make([]string, 0, len(modules))

@@ -15,13 +15,13 @@ import (
 	"cosmossdk.io/core/header"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	ed25519 "github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/GincoInc/cosmos-sdk/baseapp"
+	ed25519 "github.com/GincoInc/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/GincoInc/cosmos-sdk/crypto/types"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/x/staking/testutil"
+	stakingtypes "github.com/GincoInc/cosmos-sdk/x/staking/types"
 )
 
 const chainID = "chain-id-123"

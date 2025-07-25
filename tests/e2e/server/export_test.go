@@ -20,13 +20,13 @@ import (
 
 	"cosmossdk.io/log"
 	"cosmossdk.io/simapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/GincoInc/cosmos-sdk/client"
+	"github.com/GincoInc/cosmos-sdk/client/flags"
+	"github.com/GincoInc/cosmos-sdk/server"
+	"github.com/GincoInc/cosmos-sdk/server/types"
+	simtestutil "github.com/GincoInc/cosmos-sdk/testutil/sims"
+	"github.com/GincoInc/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/GincoInc/cosmos-sdk/x/genutil/types"
 )
 
 func TestExportCmd_ConsensusParams(t *testing.T) {

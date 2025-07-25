@@ -9,9 +9,9 @@ import (
 
 	"github.com/99designs/keyring"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/GincoInc/cosmos-sdk/codec"
+	"github.com/GincoInc/cosmos-sdk/crypto/ledger"
+	"github.com/GincoInc/cosmos-sdk/crypto/types"
 )
 
 // Linux-only backend options.

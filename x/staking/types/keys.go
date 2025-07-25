@@ -9,9 +9,9 @@ import (
 	addresscodec "cosmossdk.io/core/address"
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	sdk "github.com/GincoInc/cosmos-sdk/types"
+	"github.com/GincoInc/cosmos-sdk/types/address"
+	"github.com/GincoInc/cosmos-sdk/types/kv"
 )
 
 const (
